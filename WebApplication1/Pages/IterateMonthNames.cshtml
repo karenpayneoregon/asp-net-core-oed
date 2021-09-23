@@ -1,0 +1,66 @@
+﻿@page
+@using System.Globalization
+@model WebApplication1.Pages.IterateMonthNamesModel
+@{
+    ViewData["Title"] = "MonthNames";
+}
+
+@{
+
+    // this section is for C# code
+
+    List<string> MonthNames() => Enumerable.Range(1, 12).Select((index) => DateTimeFormatInfo.CurrentInfo.GetMonthName(index)).ToList();
+}
+
+
+<head>
+
+    <title>Dummy</title>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#dummy').click(function () {
+                alert('Hello from dummy button.');
+            });
+        });
+    </script>
+
+</head>
+
+
+<div class="text-center">
+    <h1 class="display-4 text-info">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>&nbsp;Simple foreach example&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+        </svg>
+    </h1>
+
+</div>
+
+<div class="container">
+
+    <input type="button" id="dummy" class="btn btn-primary mb-5" value="Click me" />
+
+    <table class="table table-bordered table-dark">
+        @foreach (var item in MonthNames())
+        {
+            <tr>
+                <td class="text-white font-weight-bold">
+                    @Html.DisplayFor(modelItem => item)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+
+</div>
+
+<div class="container">
+    <input type="button" class="btn btn-primary" value="Hello Me"/>
+</div>
+
+
+
