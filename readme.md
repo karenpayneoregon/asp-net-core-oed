@@ -19,8 +19,12 @@ I have a full license to DevCraft with a good deal of code samples. Have asked a
 This is the framework used at Oregon Department of Revenue.
  
 
+## Important
+
 After cloning this repository get the following NuGet packages if there are issues as I didn't included them in this repository.
 
 - [bootstrap](https://www.nuget.org/packages/bootstrap/)
 - [jQuery](https://www.nuget.org/packages/jQuery/)
 
+
+![image](assets/iterator.png)
