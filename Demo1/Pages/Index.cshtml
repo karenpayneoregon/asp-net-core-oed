@@ -1,0 +1,33 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+    int index = 0;
+}
+<script src="js/index.js"></script>
+<div class="alert alert-primary" id="buttonAlertSuccess">
+    <strong>@Model.CurrentUser().UserName it's a great</strong> @Model.TimeOfDay()
+</div>
+<div class="container">
+    <ul class="list-group">
+        @foreach (string teamMember in @Model.TeamMembers)
+        {
+            index += 1;
+            if (@teamMember == "Karen")
+            {
+                <li class="list-group-item active" aria-current="true">
+                    @teamMember
+                    <span class="badge bg-primary rounded-pill">@index</span>
+                </li>
+            }
+            else
+            {
+                <li class="list-group-item">@teamMember</li>
+            }
+        }
+    </ul>
+</div>
+<div class="text-center mt-5">
+    <button class="btn btn-primary" id="okayButton">Okay</button>
+</div>
+

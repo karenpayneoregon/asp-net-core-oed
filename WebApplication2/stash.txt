@@ -1,1 +1,0 @@
-﻿dotnet watch run -f net5.0 --project ValidationSample.csproj
