@@ -1,0 +1,48 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<link href="~/bootstrap/css/bootstrap.min.css"/>
+<script src="~/bootstrap/js/bootstrap.bundle.min.js"></script>
+<div class="text-center">
+    <h1 class="display-4 text-danger">Hello!!</h1>
+    <button type="button" id="clicker" class="btn btn-primary mt-5" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Show window
+    </button>
+    
+    <div class="modal" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OED</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    BootStrap 5 model in C#
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CLose me</button>
+                    <button type="button" class="btn btn-primary" id="saveButton" data-bs-dismiss="modal">Save</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        $("#clicker").click(function () {
+            $("#myModal").modal("show");
+        });
+
+        $("#saveButton").click(function () {
+            alert("Save code");
+        });
+
+    });
+
+
+</script>
