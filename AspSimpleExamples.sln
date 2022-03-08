@@ -25,6 +25,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hello-world", "hello-world\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo1", "Demo1\Demo1.csproj", "{0436BBB4-2C9D-49B6-8802-91F66C34793A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Third party", "Third party", "{05DD6654-D6DD-4E1C-98A7-A700E8E2CBF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelerikSampleApp", "TelerikSampleApp\TelerikSampleApp.csproj", "{C8C0E588-D548-4090-980A-D5CA40378DF1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,10 @@ Global
 		{0436BBB4-2C9D-49B6-8802-91F66C34793A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0436BBB4-2C9D-49B6-8802-91F66C34793A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0436BBB4-2C9D-49B6-8802-91F66C34793A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C0E588-D548-4090-980A-D5CA40378DF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C0E588-D548-4090-980A-D5CA40378DF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C0E588-D548-4090-980A-D5CA40378DF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C0E588-D548-4090-980A-D5CA40378DF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +67,7 @@ Global
 		{A6C13C8B-422E-4DF1-9363-AE7F8E3C6461} = {760230C9-575B-437C-A288-FC0C01570E59}
 		{6E054B40-8F60-4C91-B4E3-774CAF133B88} = {3942534C-7B75-4CE6-A07F-C6902CD1FB08}
 		{0436BBB4-2C9D-49B6-8802-91F66C34793A} = {3942534C-7B75-4CE6-A07F-C6902CD1FB08}
+		{C8C0E588-D548-4090-980A-D5CA40378DF1} = {05DD6654-D6DD-4E1C-98A7-A700E8E2CBF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1ECDB70-3A8A-414B-B65A-C318F24687B4}
