@@ -33,7 +33,11 @@ namespace Demo1.Pages
             };
 
         public CurrentUser CurrentUser() => 
-            new () { UserName = "Karen", Pin = "1234" };
+            new ()
+            {
+                UserName = "Karen", 
+                Pin = "1234"
+            };
 
         public List<string> TeamMembers => new() { "Bill", "Bick", "Lisa", "Karen", "Lindon", "Garen" };
     }
