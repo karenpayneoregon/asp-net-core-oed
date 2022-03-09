@@ -5,6 +5,7 @@ VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8DBC14C4-FB96-4B89-B8B5-F3DCAFBB4A03}"
 	ProjectSection(SolutionItems) = preProject
+		commands.md = commands.md
 		..\..\AspNetCore.Docs\aspnetcore\tutorials\dotnet-watch.md = ..\..\AspNetCore.Docs\aspnetcore\tutorials\dotnet-watch.md
 		Notes.txt = Notes.txt
 		readme.md = readme.md
@@ -30,6 +31,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelerikSampleApp", "TelerikSampleApp\TelerikSampleApp.csproj", "{C8C0E588-D548-4090-980A-D5CA40378DF1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basic1", "Basic1\Basic1.csproj", "{F0F21E6E-0577-4650-A2B3-0F8BA8F65287}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "json-11", "json-11\json-11.csproj", "{EB11DC73-758C-428A-A9FA-F7D2F21D102D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,6 +68,10 @@ Global
 		{F0F21E6E-0577-4650-A2B3-0F8BA8F65287}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0F21E6E-0577-4650-A2B3-0F8BA8F65287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0F21E6E-0577-4650-A2B3-0F8BA8F65287}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB11DC73-758C-428A-A9FA-F7D2F21D102D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB11DC73-758C-428A-A9FA-F7D2F21D102D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB11DC73-758C-428A-A9FA-F7D2F21D102D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB11DC73-758C-428A-A9FA-F7D2F21D102D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +81,7 @@ Global
 		{6E054B40-8F60-4C91-B4E3-774CAF133B88} = {3942534C-7B75-4CE6-A07F-C6902CD1FB08}
 		{0436BBB4-2C9D-49B6-8802-91F66C34793A} = {3942534C-7B75-4CE6-A07F-C6902CD1FB08}
 		{C8C0E588-D548-4090-980A-D5CA40378DF1} = {05DD6654-D6DD-4E1C-98A7-A700E8E2CBF5}
+		{EB11DC73-758C-428A-A9FA-F7D2F21D102D} = {3942534C-7B75-4CE6-A07F-C6902CD1FB08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1ECDB70-3A8A-414B-B65A-C318F24687B4}

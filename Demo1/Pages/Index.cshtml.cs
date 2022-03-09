@@ -26,9 +26,9 @@ namespace Demo1.Pages
         public string TimeOfDay() =>
             DateTime.Now.Hour switch
             {
-                <= 12 => "Good Morning",
-                <= 16 => "Good Afternoon",
-                <= 20 => "Good Evening",
+                <= 12 => "Morning",
+                <= 16 => "Afternoon",
+                <= 20 => "Evening",
                 _ => "Good Night"
             };
 
