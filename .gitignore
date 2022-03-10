@@ -363,3 +363,4 @@ MigrationBackup/
 FodyWeavers.xsd
 /aspnetcoreapp/wwwroot/lib/bootstrap
 /aspnetcoreapp/wwwroot/lib/jquery
+/stash.txt
